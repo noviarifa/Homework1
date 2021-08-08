@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo_name img{
+    height: 150px;
+    width: 150px;
+    border: 100%;
+    float: left;
+}
+.photo_name{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: white(113, 250, 255, 0.904);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wrapper_profile{
+    background-color: white(113, 250, 255, 0.904);
+    padding: 50px 50px;
+    text-align: center;
+    float: center;
+    width: 100%;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: black(248, 16, 16);
+    background-size: cover;
+    top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+
+.photo_name h1{
+    padding: 40px 50px;
+    float: left;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color:rgba(113, 250, 255, 0.904);
+    padding: 50px 50px;
+
+
+}
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+.detail_profile p{
+    margin-block-start: 2px;
+
+}
+
+.educations{
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.educations h3{
+    text-align: center;
+    background-color: white;
+    padding:  20px;
+    margin: 0;
+
+}
+
+.container{
+    margin: 10px auto;
+    width: 100%;
+}
+.edu{
+    float: left;
+    width: 100%;
+    border-color: rgb(8, 76, 116);
+    border-style: solid none solid solid;
+    padding:10px;
+    text-align: center;
+}
+
+.courses{
+    width: 100%;
+    background-color: rgba(113, 250, 255, 0.904);
+    margin: 5px 5px;
+    float: left;
+    padding: 10px;
+}
+.courses h3{
+    text-align: center;
+    background-color: rgba(113, 250, 255, 0.904);
+    margin: 0px;
+    padding:15px;
+}
+.course{
+    width: 50%;
+    height: 90px;
+    background-color:rgba(113, 250, 255, 0.904);;
+    float: left;
+}
+.course h4, .course p{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.video{
+   text-align: center;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: rgba(113, 250, 255, 0.904);
+    background-position-y: center;
+    text-align: right;
+    height: 30px;
+    float: right;
+    width: 100%;
+    margin: 5px 5px;
+}
+
+.footer img{
+    text-align: center;
+    float: right;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+}
